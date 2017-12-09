@@ -10,17 +10,23 @@
 This is a Dungeons and Dragons Character Sheet Application. It allows users to log in, create, and save character sheet data for a role playing board game. With the complexity of character sheets, it's a terrifying thought to lose one. With this app, users keep their character sheets stored in our online database, and they can access them from anywhere.
 
 ### Entity Relationship Diagram
-**User**        **CharacterSheets**
-Firstname       UserFirstName
-Lastname        UserLastName
-Email --------> Email
-Username        CharacterName
-Password        Level
-                Experience
-                Skills
-                Attributes
-                Abilities
-                Equipment
-                Inventory
+⋅⋅1. User
+⋅⋅* First Name
+⋅⋅* Last Name
+⋅⋅* Email (link)
+⋅⋅* Username
+⋅⋅* Password
+⋅⋅2. Character Sheets
+⋅⋅* Username
+⋅⋅* Email (link)
+⋅⋅* Character Name
+⋅⋅* Level
+⋅⋅* Experience
+⋅⋅* Skills
+⋅⋅* Skills
+⋅⋅* Attributes
+⋅⋅* Abilities
+⋅⋅* Equipment
+⋅⋅* Inventory
                 
 ### 
