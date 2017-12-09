@@ -22,4 +22,4 @@ Table is called "users". Columbs in that are "user_id", "user_first", "user_last
 Creation of database data done in our "characterSheet.php" and "characterSheetInclude.php" documents. Stats are stored in variables laid out in these documents and sent to the database with reformatted SQL code. Reading data is done in "logininclude.php" where the code checks the username and password fields to see if there is a match. If there is a match, the user is logged in. We felt it pertinent with each of these areas to include SQL Injection Attack prevention code.
 
 ### Video Demo
-Follow the link to our YouTube demonstration:
+Follow the link to our YouTube demonstration: https://youtu.be/APGnI7e_wIM
