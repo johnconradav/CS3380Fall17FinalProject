@@ -13,7 +13,7 @@ This is a Dungeons and Dragons Character Sheet Application. It allows users to l
 #### Database 1 = Characters
 Table is named "data". Columns in that are "char_race", "char_strength", "char_defense", "char_agility", and "char_dexterity".
 #### Database 2 = loginsystem
-Table is called "users". Columbs in that are "user_id", user_first", "user_last", "user_email", and "user_pwd".
+Table is called "users". Columbs in that are "user_id", "user_first", "user_last", "user_email", and "user_pwd".
 
 #### Entity Relationship Diagram
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
