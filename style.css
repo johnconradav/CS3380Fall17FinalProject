@@ -1,0 +1,218 @@
+/* Reset code to reset all default styling */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* --------Personal styling starts here---------- */
+.navWrapper { /* wrapper width and stretch */
+    margin: 0 auto;
+    width: 1000px;
+    
+}
+
+a { 
+    text-decoration: none;
+    
+}
+
+
+body{
+    background-color: lightslategray;   
+    
+}
+
+header nav { /* nav bar */
+    width: 100%;
+    height: 60px;
+    background-color: white;    
+}
+
+header nav ul {
+    float: left;
+    
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+    
+}
+
+header nav ul li a {
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+    line-height: 63px;
+}
+
+header .navLogin {
+    float: right;
+      
+}
+
+header .navLogin form{
+    float: left;
+    padding-top: 15px;
+      
+}
+
+header .navLogin form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: lightgray;
+    font-family: arial;
+    font-size: 14px;
+    color: black;
+    line-height: 30px;
+    
+}
+
+header .navLogin form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: lightgray;
+    font-family: arial;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    
+}
+
+header .navLogin form button:hover {
+    background-color: slategray;
+    
+}
+
+header .navLogin a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: none;
+    float: left;
+    background-color: white;
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+    line-height: 63px;
+    cursor: pointer;
+      
+}
+
+.mainContainer {
+    padding-top: 40px;
+    
+}
+
+.mainContainer h2 {
+    font-family: arial;
+    font-size: 40px;
+    color: black;
+    line-height: 60px;
+    text-align: center;
+    
+}
+
+
+/** Signup php file stling begins here */
+
+.signupForm {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+    
+}
+
+.signupForm input {
+    width: 90%;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: white;
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+    line-height: 40px;
+    
+}
+
+.signupForm button {
+    display: lock;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: gray;
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.signupForm button:hover {
+    background-color: darkslategray;
+    
+}
+
+
+
+
+
+
+
+
