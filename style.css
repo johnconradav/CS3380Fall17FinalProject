@@ -8,8 +8,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -20,7 +20,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -50,53 +50,49 @@ table {
 .navWrapper { /* wrapper width and stretch */
     margin: 0 auto;
     width: 1000px;
-    
+
 }
 
-a { 
+a {
     text-decoration: none;
-    
 }
-
 
 body{
-    background-color: lightslategray;   
-    
+    background-color: lightslategray;
 }
 
 header nav { /* nav bar */
     width: 100%;
     height: 60px;
-    background-color: white;    
+    background-color: white;
 }
 
-header nav ul {
-    float: left;
-    
+
+header .navWrapper form button {
+	float: left;
+	width: 180px;
+	height: 30px;
+  margin-right: 5px;
+	border: none;
+	margin-top: 15px;
+	background-color: lightgray;
+	font-family: arial;
+	font-size: 14px;
+	color: black;
+	cursor: pointer;
 }
 
-header nav ul li {
-    float: left;
-    list-style: none;
-    
-}
-
-header nav ul li a {
-    font-family: arial;
-    font-size: 16px;
-    color: black;
-    line-height: 63px;
+header .navWrapper form button:hover {
+    background-color: slategray;
 }
 
 header .navLogin {
     float: right;
-      
 }
 
 header .navLogin form{
     float: left;
     padding-top: 15px;
-      
 }
 
 header .navLogin form input {
@@ -111,26 +107,25 @@ header .navLogin form input {
     font-size: 14px;
     color: black;
     line-height: 30px;
-    
 }
 
 header .navLogin form button {
     float: left;
-    width: 60px;
+    width: 90px;
     height: 30px;
+    padding: 0px 10px;
     margin-right: 10px;
+		margin-top: auto;
     border: none;
     background-color: lightgray;
     font-family: arial;
     font-size: 14px;
     color: black;
     cursor: pointer;
-    
 }
 
 header .navLogin form button:hover {
     background-color: slategray;
-    
 }
 
 header .navLogin a {
@@ -145,12 +140,10 @@ header .navLogin a {
     color: black;
     line-height: 63px;
     cursor: pointer;
-      
 }
 
 .mainContainer {
     padding-top: 40px;
-    
 }
 
 .mainContainer h2 {
@@ -159,7 +152,75 @@ header .navLogin a {
     color: black;
     line-height: 60px;
     text-align: center;
-    
+}
+
+.mainContainer h3 {
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+}
+
+/** Character Sheet page **/
+.charContainer {
+    padding-top: 40px;
+}
+
+.charContainer h2 {
+    font-family: arial;
+    font-size: 40px;
+    color: black;
+    line-height: 60px;
+    text-align: center;
+}
+
+h3 {
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+}
+
+.charForm {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.charForm input {
+    width: 90%;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: white;
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+    line-height: 40px;
+}
+
+.charForm button {
+    display: lock;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: lightslategray;
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    color: black;
+
+}
+
+.charForm button:hover {
+    background-color: darkslategray;
 }
 
 
@@ -169,8 +230,6 @@ header .navLogin a {
     width: 400px;
     margin: 0 auto;
     padding-top: 30px;
-    
-    
 }
 
 .signupForm input {
@@ -186,7 +245,6 @@ header .navLogin a {
     font-size: 16px;
     color: black;
     line-height: 40px;
-    
 }
 
 .signupForm button {
@@ -195,24 +253,15 @@ header .navLogin a {
     width: 30%;
     height: 40px;
     border: none;
-    background-color: gray;
+    background-color: lightslategray;
     font-family: arial;
     font-size: 16px;
     color: black;
     cursor: pointer;
-    color: white;
-    
+    color: black;
+
 }
 
 .signupForm button:hover {
     background-color: darkslategray;
-    
 }
-
-
-
-
-
-
-
-

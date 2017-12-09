@@ -5,18 +5,15 @@
 
     <section class="mainContainer">
         <div class="mainWrapper">
-            <h2>Home</h2>
+            <h2>Welcome to the home page</h2>
             <!-- if the session is set then you can see specific pages -->
 
             <?php
             if (isset($_SESSION['u_id'])) {
-                //echo "If you are seeing this, it means you are logged in!";
+                echo '<h3>Thanks for signing in! Click on Create Character sheet above to get started!</h3>';
 
 
 
-
-
-            
             }
             ?>
 

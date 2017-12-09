@@ -11,6 +11,7 @@ if (isset($_POST['loggingIn'])){
     include_once 'dbIncludeLogin.php';
 
 
+
     //security check on the input text to escape variables and throw user input into a new variable
     $username = mysqli_real_escape_string($conn, $_POST['username']);
     $pwd = mysqli_real_escape_string($conn, $_POST['pwd']);
