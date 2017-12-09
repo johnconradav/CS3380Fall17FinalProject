@@ -10,7 +10,10 @@
 This is a Dungeons and Dragons Character Sheet Application. It allows users to log in, create, and save character sheet data for a role playing board game. With the complexity of character sheets, it's a terrifying thought to lose one. With this app, users keep their character sheets stored in our online database, and they can access them from anywhere.
 
 ### Schema for the Database
-Put the Table Definitions Here
+#### Database 1 = Characters
+Table is named "data". Columns in that are "char_race", "char_strength", "char_defense", "char_agility", and "char_dexterity".
+#### Database 2 = loginsystem
+Table is called "users". Columbs in that are "user_id", user_first", "user_last", "user_email", and "user_pwd".
 
 ### Entity Relationship Diagram
 Need to make image and link it here:
