@@ -16,7 +16,7 @@ Table is named "data". Columns in that are "char_race", "char_strength", "char_d
 Table is called "users". Columbs in that are "user_id", user_first", "user_last", "user_email", and "user_pwd".
 
 #### Entity Relationship Diagram
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1"))
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ### CRUD Implementation
 Creation of database data done in our "characterSheet.php" and "characterSheetInclude.php" documents. Stats are stored in variables laid out in these documents and sent to the database with reformatted SQL code. Reading data is done in "logininclude.php" where the code checks the username and password fields to see if there is a match. If there is a match, the user is logged in. We felt it pertinent with each of these areas to include SQL Injection Attack prevention code.
