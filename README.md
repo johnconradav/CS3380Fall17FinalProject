@@ -7,7 +7,7 @@
 3. John Conrad
 
 ### Description of Application
-This is a Dungeons and Dragons Character Sheet Application. It allows users to log in, create, and save character sheet data for a role playing board game. With the complexity of character sheets, it's a terrifying thought to lose one. With this app, users keep their character sheets stored in our online database, and they can access them from anywhere.
+This is a Dungeons and Dragons Character Sheet Application. It allows users to log in, create, and save character sheet data for a role playing board game. With this app, users keep their character sheets stored in our online database, and they can access them from anywhere. Never lose a character sheet again!
 
 ### Schema for the Database
 #### Database 1 = Characters
