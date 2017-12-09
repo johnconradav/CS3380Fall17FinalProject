@@ -51,7 +51,7 @@
 
         //Error check the query
         if (!mysqli_query($conn,$sql)) {
-          die('Error: Still not fucking working' . mysqli_error($conn));
+          die('Error: Still not working' . mysqli_error($conn));
         }
 
         //If everything worked, redirect to google for confirmation

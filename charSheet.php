@@ -11,13 +11,13 @@ if (isset($_SESSION['u_id'])) {
             <h2>Start editing your character stats!</h2>
 
             <!-- send information through post -->
-            <form class="charForm" action="saveCharInclude.php" method="post">
-                <input type="text" name="Race" placeholder="Race>
-                <input type="text" name="Strength" placeholder="Strength>
+            <form class="charForm" action="saveCharInclude.php" method="get">
+                <input type="text" name="Race" placeholder="Race">
+                <input type="text" name="Strength" placeholder="Strength">
                 <input type="text" name="Defense" placeholder="Defense">
                 <input type="text" name="Agility" placeholder="Agility">
                 <input type="text" name="Dexterity" placeholder="Dexterity">
-                <button type="submit" name="saveCharForm">Save Data</button>
+                <button type="submit" name="saveCharButton">Save Data</button>
             </form>
 
         </div>
